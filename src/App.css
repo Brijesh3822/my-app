@@ -11,6 +11,10 @@
 }
 
 
+/* .offerImage1:hover{
+  background-color: #b47a16;
+} */
+
 .offerImage2 {
   background-image: url("https://preview.colorlib.com/theme/rolax/assets/img/gallery/guest2.jpg");
 }
@@ -18,3 +22,14 @@
   background-image: url("https://preview.colorlib.com/theme/rolax/assets/img/gallery/guest3.jpg");
 }
 
+/* @media screen and (max-device-width: 320px) {
+  .offerImage1{
+    background-size: 300px;
+  }
+} */
+ 
+
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}

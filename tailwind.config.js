@@ -13,6 +13,27 @@ module.exports = {
 
       pink100: "#e29c8a",
       gray200: "#F9F8F8",
+      gray400: "#656565",
+      orange100: "#A87367",
+      gray500: "#7a7774",
+    },
+    screens: {
+      xxsm: "320px",
+      xsm: "375px",
+      sm: "425px",
+      // => @media (min-width: 640px) { ... }
+
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "1024px",
+      // => @media (min-width: 1024px) { ... }
+      mlg: "1280px",
+      xl: "1440px",
+      // => @media (min-width: 1280px) { ... }
+
+      "2xl": "1536px",
+      // => @media (min-width: 1536px) { ... }
     },
   },
   plugins: [],
